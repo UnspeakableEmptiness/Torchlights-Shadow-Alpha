@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges; /* for Firefox */
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#game-text {
+    font-family: "Press Start 2P";
+    text-align: center;
+  }
+
+  .unselectable {
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10+ */
+    user-select: none;         /* Standard syntax */
+    cursor: none;
+}
